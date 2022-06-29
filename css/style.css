@@ -10,6 +10,7 @@ body{
   background-size: 100% auto;
   background-repeat: no-repeat;
   color: #FFFFFF;
+  max-width: 1728px;
 }
 
 /* HEADER */
@@ -31,6 +32,7 @@ body{
   width: 1490px;
   height: 46px;
   margin-top: 57px;
+  margin-bottom: 82px;
 }
 
 
@@ -107,6 +109,63 @@ body{
   line-height: 16.42px;
   top: 55px;
   right: 120px;
+}
+
+
+/* HERO */
+.hero-content {
+  height: 1128px;
+  height: 425px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 24px;
+  text-align: center;
+}
+.hero__title {
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 82px;
+  line-height: 96px;  
+}
+.hero__subtitle {
+  margin-bottom: 42px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;  
+}
+.hero__search {
+  margin-left: auto;
+  margin-right: auto;
+  width: 463px;
+  height: 71px; 
+  color: #FFFF;
+}
+.search {
+  position: relative;
+  width: 463px;
+  height: 71px;
+  padding: 24px 30px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #FFFFFF;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  border-radius: 50px;
+  color: #FFFFFF;
+}
+.submit {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 525px;
+  right: 645px;
+  background: transparent;
+  background-image: url(./../img/icon/btn-search.svg);
+  border: none;
+}
+
+input {
+  outline:none;
 }
 
 
