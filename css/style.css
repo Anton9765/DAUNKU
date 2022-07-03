@@ -14,7 +14,10 @@ body{
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
-
+input{
+	border: none;
+	background:transparent;
+}
 .container {
 	max-width: 1520px;
 	padding-left: 15px;
@@ -130,7 +133,6 @@ body{
 .hero{
 	height: 1004px;
 	padding-bottom: 579px;
-	margin-bottom: 102px;
 	color: #FFFF;
 }
 .hero-content {
@@ -203,7 +205,8 @@ input {
 /* MAIN */
 
 .main {
-	height: 3415px;
+	height: 3517px;
+	padding-top: 102px;
 }
 
 /* SERVICE */
@@ -216,7 +219,7 @@ input {
 
 .shapping {
 	display: flex;
-	margin-right: 226px;
+	width: 33.3%;
 }
 
 .service__icon {
@@ -226,7 +229,6 @@ input {
 }
 
 .servece__title {
-	display: flex;
 	margin-bottom: 16px;
 	font-weight: 500;
 	font-size: 32px;
@@ -234,7 +236,6 @@ input {
 }
 
 .service__subtitle {
-	display: flex;
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 23px;
@@ -242,14 +243,161 @@ input {
 }
 
 .payment {
+	width: 33.3%;
 	display: flex;
-	margin-right: 226px;
+	padding-left: 110px;
 }
 
 .support {
 	display: flex;
+	width: 33.3%;
+	padding-left: 180px;
 }
 
+/* DEST SELLER */
+
+.best-seller {
+	display: flex;
+	height: 634px;
+}
+
+.bs-text {
+	width: 363px;
+	height: 150px;
+	margin-top: 243px;
+	margin-bottom: 16px;
+	margin-right: 61px;
+}
+
+.bs__title {
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 75px;
+	color: #081323;	
+}
+
+.bs__button form {
+	display: flex;
+	align-items: center;
+	width: 252px;
+	height: 80px;	
+	padding: 16px 0px;
+	border-radius: 30px;
+}
+
+.bs-button__text {
+	margin-right: 8px;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+	color: #4F4F4F;
+}
+
+.bs-button-submit {
+	width: 48px;
+	height: 48px;
+	margin-top: 25px;
+	background: url(../img/icon/arrow-1-right.svg);
+	background-repeat: no-repeat;
+}
+
+.bs-product {
+	display: flex;
+	width: 1051px;
+	height: 634px;
+	padding: 0;
+}
+
+.bs-card {
+	position: relative;
+	width: 329px;
+	height: 510px;
+	margin-top: 123px;
+	border-radius: 50px;
+ 	background:  rgba(153, 139, 203, 0.25);
+	box-shadow: 0px 4px 30px;
+}
+
+.bs-card-info {
+	position: absolute;
+	width: 329px;
+	height: 260px;
+	padding: 26px 38px;
+	right: 0;
+	bottom: 0;
+	border-radius: 50px;
+	background: #fff;
+}
+
+.bs-product__title {
+	width: 139px;
+	height: 38px;	
+	margin-bottom: 7px;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 38px;
+	color: #081323;
+}
+
+.bs-product__stars {
+	display: flex;
+	width: 120px;
+	height: 24px;
+	margin-bottom: 75px;
+}
+
+.star{
+	height: 24px;
+	width: 24px;
+	margin: 0;
+}
+
+.bs-card-bottom{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 253px;
+	height: 64px;
+	padding: 0;
+}
+
+.bs-product__prise {
+	width: 107px;
+	height: 38px;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 38px;
+	color: #081323;
+}
+
+.bs-product__submit {
+	width: 64px;
+	height: 64px;
+	background-image: url(/img/icon/akar-icons_circle-plus-fill.svg);
+	background-repeat: no-repeat;
+}
+
+.bs-card-image-1 {
+	position: absolute;
+	width: 325px;
+	height: 333px;
+	bottom: 300px;	
+}
+
+.bs-img {
+	width: 306px;
+	height: 320px;
+	margin: 157px;
+	margin-right: 32px;
+	margin-left: 32px;
+}
+
+.bs-card-image-2 {
+	position: absolute;
+	width: 306px;
+	height: 320px;
+	bottom: 300px;	
+}
 
 
 
